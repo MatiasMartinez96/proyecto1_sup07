@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_netflix = pd.read_csv('../proyecto1_sup07/app/csv/netflix.csv', sep=',', encoding='latin-1')
+df_netflix = pd.read_csv('./app/csv/netflix.csv', sep=',', encoding='latin-1')
 
 df_netflix.head()
 
